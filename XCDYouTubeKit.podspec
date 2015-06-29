@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "Cédric Luthi" => "cedric.luthi@gmail.com" }
   s.social_media_url      = "https://twitter.com/0xced"
-  s.source                = { :git => "https://github.com/0xced/XCDYouTubeKit.git", :tag => s.version.to_s }
+  s.source                = { :git => "git@github.com:pellet/XCDYouTubeKit.git", :tag => s.version.to_s }
   s.ios.deployment_target = "5.0"
   s.osx.deployment_target = "10.7"
   s.source_files          = "XCDYouTubeKit"
